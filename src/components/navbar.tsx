@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Station1 from "./station1";
 import Station2 from "./station2";
-import Station3 from "./station1";
+import Station3 from "./station3";
 
 
 export default function Navbar() {
