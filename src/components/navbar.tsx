@@ -17,7 +17,7 @@ export default function Navbar() {
                     className={`tab ${activeTab === "station1" ? "tab-active" : ""}`}
                     onClick={() => setActiveTab("station1")}
                 >
-                    Station 1
+                    แหล่งผลิต
                 </a>
 
                 <a
@@ -25,7 +25,7 @@ export default function Navbar() {
                     className={`tab ${activeTab === "station2" ? "tab-active" : ""}`}
                     onClick={() => setActiveTab("station2")}
                 >
-                    Station 2
+                    ขึ้นรูป
                 </a>
 
                 <a
@@ -33,7 +33,7 @@ export default function Navbar() {
                     className={`tab ${activeTab === "station3" ? "tab-active" : ""}`}
                     onClick={() => setActiveTab("station3")}
                 >
-                    Station 3
+                    อบ
                 </a>
             </div>
 
